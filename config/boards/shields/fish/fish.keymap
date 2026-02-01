@@ -120,8 +120,8 @@
         layer_navi {
             bindings = <
                         &kp LBKT    &kp DQT     &kp RBKT    &kp AMPS            &kp COLON   &kp ESC     &kp UP      &kp CAPS    
-&kp ESC     &kp trans   &mt LCTRL LPAR &mt LALT SQT &mt LSHFT RPAR &kp PIPE     &kp SEMI    &kp LEFT    &kp DOWN    &kp RIGHT   &kp PG_UP   &kp PSCRN  
-            &kp trans   &kp LBRC    &kp GRAVE   &kp RBRC                                    &kp DEL     &kp trans   &kp trans   &kp PG_DN
+&kp ESC     &trans      &mt LCTRL LPAR &mt LALT SQT &mt LSHFT RPAR &kp PIPE     &kp SEMI    &kp LEFT    &kp DOWN    &kp RIGHT   &kp PG_UP   &kp PSCRN  
+            &trans      &kp LBRC    &kp GRAVE   &kp RBRC                                    &kp DEL     &trans      &trans      &kp PG_DN
                                                 &lt 6 BSPC  &trans              &trans      &none       
             >;
         };
