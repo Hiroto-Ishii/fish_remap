@@ -91,8 +91,8 @@
         layer_math {
             bindings = <
                         &kp N1      &kp U      &kp N3      &kp N0             &kp EXCL    &kp LT      &kp EQUAL   &kp GT      
-&kp ESC     &kp E       &kp I       &kp A       &kp O       &kp DOT            &kp QMARK   &mt RSHFT PLUS &mt RALT MINUS &mt RGUI STAR &kp FSLH &kp PRCNT 
-            &kp K       &kp N7      &kp N8      &kp N9                                      &kp UNDER   &kp CARET   &kp HASH   &kp BSLH    
+&kp K       &kp E       &kp I       &kp A       &kp O       &kp DOT            &kp QMARK   &mt RSHFT PLUS &mt RALT MINUS &mt RGUI STAR &kp FSLH &kp PRCNT 
+            &kp Z       &kp N7      &kp N8      &kp N9                                      &kp UNDER   &kp CARET   &kp HASH   &kp BSLH    
                                                 &none       &trans              &trans      &lt 6 SPACE 
             >;
         };
