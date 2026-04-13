@@ -178,7 +178,7 @@
         layer_jis_math {
             bindings = <
                         &kp CAPS    &kp UP      &kp DEL     &kp PLUS            &trans      &kp RBKT    &kp AT      &kp NUHS
-&kp ESC     &kp PSCRN   &kp LEFT    &kp DOWN    &kp RIGHT   &kp DOT             &kp SEMI    &mt RCTRL STAR &mt RALT AMPS &mt RSHFT LPAR &kp SQT &kp LBKT
+&kp ESC     &kp PSCRN   &kp LEFT    &kp DOWN    &kp RIGHT   &kp DOT             &kp SEMI    &mt RCTRL STAR &mt RALT AMPS &mt RSHFT LPAR &kp HASH &kp LBKT
             &trans      &trans      &kp LS(INT1) &kp F5                                     &kp RBRC    &kp LBRC    &kp TILDE2 &trans
                                                 &none       &trans              &trans      &lt 9 SPACE
             >;
@@ -186,8 +186,8 @@
 
         layer_jis_navi {
             bindings = <
-                        &kp LT      &kp UNDER   &kp GT      &kp EXCL            &kp COLON   &kp N7      &kp N8      &kp N9
-&kp PRCNT   &kp FSLH    &mt LCTRL DQT &mt LALT MINUS &mt LSHFT COLON &kp QMARK  &kp SEMI    &mt RCTRL N4 &mt RALT N5  &mt RSHFT N6 &kp N0   &trans
+                        &kp LT      &kp UNDER   &kp GT      &kp EXCL            &kp SQT    &kp N7      &kp N8      &kp N9
+&kp PRCNT   &kp FSLH    &mt LCTRL DQT &mt LALT MINUS &mt LSHFT COLON &kp QMARK  &kp SEMI   &mt RCTRL N4 &mt RALT N5  &mt RSHFT N6 &kp N0   &trans
             &kp INT1    &kp EQUAL   &kp LS(INT3) &kp CARET                                 &kp N1      &kp N2      &kp N3      &kp DLLR
                                                 &lt 9 BSPC  &trans              &trans      &none
             >;
