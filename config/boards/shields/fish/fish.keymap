@@ -124,9 +124,9 @@
         layer_math {
             bindings = <
                         &kp CAPS    &kp UP      &kp DEL     &kp TILDE           &trans      &kp LBKT    &kp DQT     &kp RBKT      
-&kp ESC     &kp PSCRN   &mt LGUI LEFT &mt LALT DOWN &mt LSHFT RIGHT &kp DOT     &kp SEMI    &mt RCTRL LPAR &mt RALT SQT &mt RSHFT RPAR &kp BSLH &kp AT 
+&kp ESC     &kp PSCRN   &kp LEFT    &kp DOWN    &kp RIGHT   &kp DOT             &kp SEMI    &mt RCTRL LPAR &mt RALT SQT &mt RSHFT RPAR &kp BSLH &kp AT 
             &trans      &trans      &kp UNDER   &kp F5                                      &kp LBRC    &kp GRAVE   &kp RBRC   &trans    
-                                                &none       &trans              &trans      &lt 6 SPACE 
+                                                &none       &trans              &trans      &lt 9 SPACE 
             >;
         };
 
@@ -135,7 +135,7 @@
                         &kp LT      &kp EQUAL   &kp GT      &kp EXCL            &kp COLON   &kp N7      &kp N8      &kp N9      
 &kp PRCNT   &kp FSLH    &mt LCTRL STAR &mt LALT MINUS &mt LSHFT PLUS &kp QMARK  &kp SEMI    &mt RCTRL N4 &mt RALT N5  &mt RSHFT N6 &kp N0   &trans
             &kp CARET   &kp HASH    &kp PIPE    &kp AMPS                                    &kp N1      &kp N2      &kp N3      &kp DLLR
-                                                &lt 6 BSPC  &trans              &trans      &none       
+                                                &lt 9 BSPC  &trans              &trans      &none       
             >;
         };
 
@@ -151,27 +151,18 @@
         layer_mac_math {
             bindings = <
                         &kp CAPS    &kp UP      &kp DEL     &kp TILDE           &trans      &kp LBKT    &kp DQT     &kp RBKT
-&kp ESC     &kp PSCRN   &mt LGUI LEFT &mt LALT DOWN &mt LSHFT RIGHT &kp DOT     &kp SEMI    &mt RCTRL LPAR &mt RALT SQT &mt RSHFT RPAR &kp BSLH &kp AT
+&kp ESC     &kp PSCRN   &kp LEFT    &kp DOWN    &kp RIGHT   &kp DOT             &kp SEMI    &mt RCTRL LPAR &mt RALT SQT &mt RSHFT RPAR &kp BSLH &kp AT
             &trans      &trans      &kp UNDER   &kp F5                                      &kp LBRC    &kp GRAVE   &kp RBRC   &trans
-                                                &none       &trans              &trans      &lt 6 SPACE
+                                                &none       &trans              &trans      &lt 9 SPACE
             >;
         };
 
         layer_mac_navi {
             bindings = <
                         &kp LT      &kp EQUAL   &kp GT      &kp EXCL            &kp COLON   &kp N7      &kp N8      &kp N9
-&kp PRCNT   &kp FSLH    &mt LGUI STAR &mt LALT MINUS &mt LSHFT PLUS &kp QMARK  &kp SEMI    &mt RCTRL N4 &mt RALT N5  &mt RSHFT N6 &kp N0   &trans
+&kp PRCNT   &kp FSLH    &mt LGUI STAR &mt LALT MINUS &mt LSHFT PLUS &kp QMARK   &kp SEMI    &mt RCTRL N4 &mt RALT N5  &mt RSHFT N6 &kp N0   &trans
             &kp CARET   &kp HASH    &kp PIPE    &kp AMPS                                    &kp N1      &kp N2      &kp N3      &kp DLLR
-                                                &lt 6 BSPC  &trans              &trans      &none
-            >;
-        };
-
-        layer_system {
-            bindings = <
-                        &bt BT_SEL 4 &bt BT_CLR &bt BT_CLR_ALL &out OUT_TOG     &tog 3      &tog 7      &kp HOME    &kp PG_UP   
-&kp F1      &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &kp F6          &kp F7      &kp INS     &kp END     &kp PG_DN   &kp K_APP   &kp F12     
-            &kp F2      &kp F3      &kp F4      &kp F5                                      &kp F8      &kp F9      &kp F10     &kp F11     
-                                                &none       &none               &none       &none       
+                                                &lt 9 BSPC  &trans              &trans      &none
             >;
         };
 
@@ -180,16 +171,16 @@
                         &kp L       &kp U       &kp F       &kp MINUS           &kp K       &kp W       &kp R       &kp Y
 &kp Q       &kp E       &mt LGUI I  &mt LALT A  &mt LSHFT O &kp COMMA           &kp G       &mt RSHFT T &mt RALT N  &mt RGUI S  &kp H       &kp P
             &kp Z       &kp X       &kp C       &kp V                                       &kp D       &kp M       &kp J       &kp B
-                                                &lt 8 BSPC  &mt LCTRL RET       &mt RCTRL TAB &lt 9 SPACE
+                                                &lt 7 BSPC  &mt LCTRL RET       &mt RCTRL TAB &lt 8 SPACE
             >;
         };
 
         layer_jis_math {
             bindings = <
                         &kp CAPS    &kp UP      &kp DEL     &kp PLUS            &trans      &kp RBKT    &kp AT      &kp NUHS
-&kp ESC     &kp PSCRN   &mt LGUI LEFT &mt LALT DOWN &mt LSHFT RIGHT &kp DOT      &kp SEMI    &mt RCTRL STAR &mt RALT AMPS &mt RSHFT LPAR &kp INT1 &kp LBKT
+&kp ESC     &kp PSCRN   &kp LEFT    &kp DOWN    &kp RIGHT   &kp DOT             &kp SEMI    &mt RCTRL STAR &mt RALT AMPS &mt RSHFT LPAR &kp INT1 &kp LBKT
             &trans      &trans      &kp LS(INT1) &kp F5                                     &kp RBRC    &kp LBRC    &kp TILDE2 &trans
-                                                &none       &trans              &trans      &lt 6 SPACE
+                                                &none       &trans              &trans      &lt 9 SPACE
             >;
         };
 
@@ -198,7 +189,16 @@
                         &kp LT      &kp UNDER   &kp GT      &kp EXCL            &kp COLON   &kp N7      &kp N8      &kp N9
 &kp PRCNT   &kp FSLH    &mt LCTRL DQT &mt LALT MINUS &mt LSHFT COLON &kp QMARK  &kp SEMI    &mt RCTRL N4 &mt RALT N5  &mt RSHFT N6 &kp N0   &trans
             &kp EQUAL   &kp SQT     &kp LS(INT3) &kp CARET                                 &kp N1      &kp N2      &kp N3      &kp DLLR
-                                                &lt 6 BSPC  &trans              &trans      &none
+                                                &lt 9 BSPC  &trans              &trans      &none
+            >;
+        };
+
+        layer_system {
+            bindings = <
+                        &bt BT_SEL 4 &bt BT_CLR &bt BT_CLR_ALL &out OUT_TOG     &to 3       &to 6       &to 0       &kp PG_UP   
+&kp F1      &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &kp F6          &kp F7      &kp HOME    &kp END     &kp PG_DN   &kp K_APP   &kp F12     
+            &kp F2      &kp F3      &kp F4      &kp F5                                      &kp F8      &kp F9      &kp F10     &kp F11     
+                                                &none       &none               &none       &none       
             >;
         };
     };
