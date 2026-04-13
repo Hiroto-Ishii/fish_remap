@@ -47,6 +47,14 @@
     };
 
     macros {
+        nn_macro: nn_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <
+                &kp N
+                &kp N
+            >;
+        };
     };
 
     conditional_layers {
@@ -73,6 +81,11 @@
         combo_lang1 {
             key-positions = <15 16>;
             bindings = <&kp LANG1>;
+        };
+        
+        combo_nn {
+            key-positions = <16 17>;
+            bindings = <&nn_macro>;
         };
 
         combo_reset_L {
