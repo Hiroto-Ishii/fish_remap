@@ -126,7 +126,7 @@
                         &kp CAPS    &kp UP      &kp DEL     &kp TILDE           &trans      &kp LBKT    &kp DQT     &kp RBKT      
 &kp ESC     &kp PSCRN   &kp LEFT    &kp DOWN    &kp RIGHT   &kp DOT             &kp SEMI    &mt RCTRL LPAR &mt RALT SQT &mt RSHFT RPAR &kp HASH &kp AT 
             &trans      &trans      &kp UNDER   &kp F5                                      &kp LBRC    &kp GRAVE   &kp RBRC   &trans    
-                                                &none       &trans              &trans      &lt 9 SPACE 
+                                                &none       &trans              &trans      &lt 12 SPACE 
             >;
         };
 
@@ -135,7 +135,7 @@
                         &kp LT      &kp EQUAL   &kp GT      &kp EXCL            &kp COLON   &kp N7      &kp N8      &kp N9      
 &kp PRCNT   &kp FSLH    &mt LCTRL STAR &mt LALT MINUS &mt LSHFT PLUS &kp QMARK  &kp SEMI    &mt RCTRL N4 &mt RALT N5  &mt RSHFT N6 &kp N0   &trans
             &kp BSLH    &kp CARET   &kp PIPE    &kp AMPS                                    &kp N1      &kp N2      &kp N3      &kp DLLR
-                                                &lt 9 BSPC  &trans              &trans      &none       
+                                                &lt 12 BSPC  &trans              &trans      &none       
             >;
         };
 
@@ -153,7 +153,7 @@
                         &kp CAPS    &kp UP      &kp DEL     &kp TILDE           &trans      &kp LBKT    &kp DQT     &kp RBKT
 &kp ESC     &kp PSCRN   &kp LEFT    &kp DOWN    &kp RIGHT   &kp DOT             &kp SEMI    &mt RCTRL LPAR &mt RALT SQT &mt RSHFT RPAR &kp HASH &kp AT
             &trans      &trans      &kp UNDER   &kp F5                                      &kp LBRC    &kp GRAVE   &kp RBRC   &trans
-                                                &none       &trans              &trans      &lt 9 SPACE
+                                                &none       &trans              &trans      &lt 12 SPACE
             >;
         };
 
@@ -162,7 +162,7 @@
                         &kp LT      &kp EQUAL   &kp GT      &kp EXCL            &kp COLON   &kp N7      &kp N8      &kp N9
 &kp PRCNT   &kp FSLH    &mt LGUI STAR &mt LALT MINUS &mt LSHFT PLUS &kp QMARK   &kp SEMI    &mt RCTRL N4 &mt RALT N5  &mt RSHFT N6 &kp N0   &trans
             &kp BSLH    &kp CARET   &kp PIPE    &kp AMPS                                    &kp N1      &kp N2      &kp N3      &kp DLLR
-                                                &lt 9 BSPC  &trans              &trans      &none
+                                                &lt 12 BSPC &trans              &trans      &none
             >;
         };
 
@@ -180,7 +180,7 @@
                         &kp CAPS    &kp UP      &kp DEL     &kp PLUS            &trans      &kp RBKT    &kp AT      &kp NUHS
 &kp ESC     &kp PSCRN   &kp LEFT    &kp DOWN    &kp RIGHT   &kp DOT             &kp SEMI    &mt RCTRL STAR &mt RALT AMPS &mt RSHFT LPAR &kp HASH &kp LBKT
             &trans      &trans      &kp LS(INT1) &kp F5                                     &kp RBRC    &kp LBRC    &kp TILDE2 &trans
-                                                &none       &trans              &trans      &lt 9 SPACE
+                                                &none       &trans              &trans      &lt 12 SPACE
             >;
         };
 
@@ -189,13 +189,40 @@
                         &kp LT      &kp UNDER   &kp GT      &kp EXCL            &kp SQT    &kp N7      &kp N8      &kp N9
 &kp PRCNT   &kp FSLH    &mt LCTRL DQT &mt LALT MINUS &mt LSHFT COLON &kp QMARK  &kp SEMI   &mt RCTRL N4 &mt RALT N5  &mt RSHFT N6 &kp N0   &trans
             &kp INT1    &kp EQUAL   &kp LS(INT3) &kp CARET                                 &kp N1      &kp N2      &kp N3      &kp DLLR
-                                                &lt 9 BSPC  &trans              &trans      &none
+                                                &lt 12 BSPC &trans              &trans      &none
+            >;
+        };
+
+        layer_game_base {
+            bindings = <
+                        &kp N1      &kp W       &kp N2      &kp R               &kp K       &kp W       &kp R       &kp Y       
+&kp TAB     &kp LSHFT   &kp A       &kp S       &kp D       &kp F               &kp G       &mt RSHFT T &mt RALT N  &mt RGUI S  &kp H       &kp P       
+            &kp LCTRL   &kp Z       &kp C       &kp G                                       &kp D       &kp M       &kp J       &kp B       
+                                                &lt 10 M    &kp SPACE           &mt RCTRL TAB &lt 11 SPACE 
+            >;
+        };
+
+        layer_game_math {
+            bindings = <
+                        &kp Q       &trans      &kp E       &kp N3              &trans      &kp LBKT    &kp DQT     &kp RBKT      
+&kp ESC     &trans      &trans      &trans      &trans      &kp N4              &kp SEMI    &mt RCTRL LPAR &mt RALT SQT &mt RSHFT RPAR &kp HASH &kp AT
+            &trans      &kp X       &kp LALT    &kp B                                       &kp LBRC    &kp GRAVE   &kp RBRC   &trans    
+                                                &none       &trans              &trans      &lt 12 SPACE 
+            >;
+        };
+
+        layer_game_navi {
+            bindings = <
+                        &kp LT      &kp EQUAL   &kp GT      &kp EXCL            &kp COLON   &kp N7      &kp N8      &kp N9      
+&kp PRCNT   &kp FSLH    &mt LCTRL STAR &mt LALT MINUS &mt LSHFT PLUS &kp QMARK  &kp SEMI    &mt RCTRL N4 &mt RALT N5  &mt RSHFT N6 &kp N0   &trans
+            &kp BSLH    &kp CARET   &kp PIPE    &kp AMPS                                    &kp N1      &kp N2      &kp N3      &kp DLLR
+                                                &lt 12 BSPC  &trans              &trans      &none       
             >;
         };
 
         layer_system {
             bindings = <
-                        &bt BT_SEL 4 &bt BT_CLR &bt BT_CLR_ALL &out OUT_TOG     &to 3       &to 6       &to 0       &kp PG_UP   
+                        &bt BT_SEL 4 &bt BT_CLR &bt BT_CLR_ALL &out OUT_TOG     &to 0       &to 3       &to 6       &to 9   
 &kp F1      &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &kp F6          &kp F7      &kp HOME    &kp END     &kp PG_DN   &kp K_APP   &kp F12     
             &kp F2      &kp F3      &kp F4      &kp F5                                      &kp F8      &kp F9      &kp F10     &kp F11     
                                                 &none       &none               &none       &none       
