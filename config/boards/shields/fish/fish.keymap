@@ -81,18 +81,18 @@
 
         layer_base {
             bindings = <
-                        &kp L       &kp U       &kp F       &kp MINUS           &kp K       &kp W       &kp R       &kp Y       
-&kp Q       &kp E       &kp I       &kp A       &kp O       &kp COMMA           &kp G       &mt RSHFT T &mt RALT N  &mt RGUI S  &kp H       &kp P       
-            &kp Z       &kp X       &kp C       &kp V                                       &kp D       &kp M       &kp J       &kp B       
-                                                &lt 1 BSPC  &kp LCTRL           &mt RCTRL TAB &lt 2 SPACE 
+                        &kp N1      &kp W       &kp N2      &kp N3              &kp K       &kp W       &kp R       &kp Y       
+&kp TAB     &kp LSHFT   &kp A       &kp S       &kp D       &kp N4              &kp G       &mt RSHFT T &mt RALT N  &mt RGUI S  &kp H       &kp P       
+            &kp LCTRL   &kp Z       &kp C       &kp G                                       &kp D       &kp M       &kp J       &kp B       
+                                                &lt 1 M     &kp SPACE           &mt RCTRL TAB &lt 2 SPACE 
             >;
         };
 
         layer_math {
             bindings = <
-                        &kp N1      &kp U      &kp N3      &kp N0             &kp EXCL    &kp LT      &kp EQUAL   &kp GT      
-&kp K       &kp E       &kp I       &kp A       &kp O       &kp DOT            &kp QMARK   &mt RSHFT PLUS &mt RALT MINUS &mt RGUI STAR &kp FSLH &kp PRCNT 
-            &kp Z       &kp N7      &kp N8      &kp N9                                      &kp UNDER   &kp CARET   &kp HASH   &kp BSLH    
+                        &kp Q       &trans      &kp E       &kp R               &kp EXCL    &kp LT      &kp EQUAL   &kp GT      
+&kp ESC     &trans      &trans      &trans      &trans      &kp F               &kp QMARK   &mt RSHFT PLUS &mt RALT MINUS &mt RGUI STAR &kp FSLH &kp PRCNT 
+            &trans      &kp X       &kp LALT    &kp B                                       &kp UNDER   &kp CARET   &kp HASH   &kp BSLH    
                                                 &none       &trans              &trans      &lt 6 SPACE 
             >;
         };
