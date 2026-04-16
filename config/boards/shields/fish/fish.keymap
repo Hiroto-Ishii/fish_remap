@@ -125,7 +125,7 @@
             bindings = <
                         &kp CAPS    &kp UP      &kp DEL     &kp TILDE           &trans      &kp LBKT    &kp DQT     &kp RBKT      
 &kp ESC     &kp PSCRN   &kp LEFT    &kp DOWN    &kp RIGHT   &kp DOT             &kp SEMI    &mt RCTRL LPAR &mt RALT SQT &mt RSHFT RPAR &kp HASH &kp AT 
-            &trans      &trans      &kp UNDER   &kp F5                                      &kp LBRC    &kp GRAVE   &kp RBRC   &trans    
+            &trans      &trans      &trans      &kp F5                                      &kp LBRC    &kp GRAVE   &kp RBRC   &kp UNDER    
                                                 &none       &trans              &trans      &lt 12 SPACE 
             >;
         };
@@ -152,7 +152,7 @@
             bindings = <
                         &kp CAPS    &kp UP      &kp DEL     &kp TILDE           &trans      &kp LBKT    &kp DQT     &kp RBKT
 &kp ESC     &kp PSCRN   &kp LEFT    &kp DOWN    &kp RIGHT   &kp DOT             &kp SEMI    &mt RCTRL LPAR &mt RALT SQT &mt RSHFT RPAR &kp HASH &kp AT
-            &trans      &trans      &kp UNDER   &kp F5                                      &kp LBRC    &kp GRAVE   &kp RBRC   &trans
+            &trans      &trans      &trans      &kp F5                                      &kp LBRC    &kp GRAVE   &kp RBRC   &kp UNDER
                                                 &none       &trans              &trans      &lt 12 SPACE
             >;
         };
@@ -179,7 +179,7 @@
             bindings = <
                         &kp CAPS    &kp UP      &kp DEL     &kp PLUS            &trans      &kp RBKT    &kp AT      &kp NUHS
 &kp ESC     &kp PSCRN   &kp LEFT    &kp DOWN    &kp RIGHT   &kp DOT             &kp SEMI    &mt RCTRL STAR &mt RALT AMPS &mt RSHFT LPAR &kp HASH &kp LBKT
-            &trans      &trans      &kp LS(INT1) &kp F5                                     &kp RBRC    &kp LBRC    &kp TILDE2 &trans
+            &trans      &trans      &trans      &kp F5                                     &kp RBRC    &kp LBRC    &kp TILDE2  &kp LS(INT1)
                                                 &none       &trans              &trans      &lt 12 SPACE
             >;
         };
@@ -206,7 +206,7 @@
             bindings = <
                         &kp Q       &trans      &kp E       &kp N3              &trans      &kp LBKT    &kp DQT     &kp RBKT      
 &kp ESC     &trans      &trans      &trans      &trans      &kp N4              &kp SEMI    &mt RCTRL LPAR &mt RALT SQT &mt RSHFT RPAR &kp HASH &kp AT
-            &trans      &kp X       &kp LALT    &kp B                                       &kp LBRC    &kp GRAVE   &kp RBRC   &trans    
+            &trans      &kp X       &kp LALT    &kp B                                       &kp LBRC    &kp GRAVE   &kp RBRC   &kp UNDER  
                                                 &none       &trans              &trans      &lt 12 SPACE 
             >;
         };
